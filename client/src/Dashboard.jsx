@@ -10,7 +10,7 @@ const Dashboard = () => {
   const token = localStorage.getItem("token");
 
   const api = axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: "https://module-end-assignment-5.onrender.com/api",
     headers: { Authorization: `Bearer ${token}` },
   });
 
